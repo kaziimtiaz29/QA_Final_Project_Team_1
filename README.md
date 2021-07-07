@@ -44,3 +44,9 @@ The team review the choice of available software to manage the project and desci
 The team conducted a simple risk assessment:
 ![RISKASSESSMENT](images/risk.PNG)
 
+
+## Docker
+the Docker had two applications, one frontend and one backend. Their images were built and containerized. The database was created on Rdb on AWS.It's container was also built on the same instance. Images of the three containers were pushed on Dokcerhub were Kubernetes would manage and build them.The environment.ts directive instructs the front end application to interface with the back end, pulling database information to display on the site and allowing CRUD capability. We used DockerHub's team repository feature so that we could all push and get images from our own accounts.
+
+![Dockerhubimages].(
+
